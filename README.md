@@ -55,22 +55,22 @@ import simplepfd as pfd
 
 Define PFD components:
 ```python
-tank_1 = pfd.Unit('Tank 1",'tank')
-tank_2 = pfd.Unit('Task 2",'tank')
+tank_1 = pfd.Unit('Tank 1','tank')
+tank_2 = pfd.Unit('Tank 2','tank')
 pump = pfd.Unit('P-1','pump')
 ```
 
 Define flows(line styles can also be edited (width, arrowhead, nolabel, dashed, color):
 ```python
-f1 = pfd.Flow('Tank 1",'Pump')
-f2 = pfd.Flow('Pump', 'Tank2')
+f1 = pfd.Flow('Tank 1','P-1')
+f2 = pfd.Flow('P-1', 'Tank 2')
 ```
 
 Define sensors and connectors:
 ```python
 t1 = pfd.Sensor('TT-1','TT','01')
 t2 = pfd.Sensor('TT-2','TT','02')
-conn_1 = pfd.Connector('TT-1','pump')
+conn_1 = pfd.Connector('TT-1','P-1')
 ```
 
 Define PFD components and write XML PFD:
@@ -96,6 +96,9 @@ CSV format:
 
 
 *mel.csv*:
+![Flowchart](./images/mel.png "MEL example")
+
+In Ascii:
 ```
 tag,type,flows_to,column1,column2
 Tank 1,vessel,P1,more info, more info
@@ -107,7 +110,7 @@ air,text,None,more info, more info
 Define PFD components and write .xml file:
 
 ```python
-mel_components = pfd.components_from_mel('mel.csv')
+mel_components = pfd.components_from_mel("mel.csv")
 pfd.write_pfd("example.xml", mel_components)
 ```
 
