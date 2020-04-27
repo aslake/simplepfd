@@ -62,15 +62,15 @@ pump = pfd.Unit('P-1','pump')
 
 Define flows(line styles can also be edited (width, arrowhead, nolabel, dashed, color):
 ```python
-f1 = pfd.Flow('Tank 1','Pump')
-f2 = pfd.Flow('Pump', 'Tank2')
+f1 = pfd.Flow('Tank 1','P-1')
+f2 = pfd.Flow('P-1', 'Tank2')
 ```
 
 Define sensors and connectors:
 ```python
 t1 = pfd.Sensor('TT-1','TT','01')
 t2 = pfd.Sensor('TT-2','TT','02')
-conn_1 = pfd.Connector('TT-1','pump')
+conn_1 = pfd.Connector('TT-1','P-1')
 ```
 
 Define PFD components and write XML PFD:
