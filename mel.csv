@@ -1,0 +1,5 @@
+tag,type,flows_to,column1,column2
+Tank 1,vessel,P1,more info, more info
+P1,pump,C1(color=red&nolabel=True),more info,more info
+C1,packedcolumn,air(nolabel=True);Tank 1(width=4&nolabel=True),more info, more info
+air,text,None,more info, more info

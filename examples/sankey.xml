@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mxfile agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="CVfyjKD-OZSoUW8kFnlX" host="app.diagrams.net" modified="2020-04-26T10:59:14.785Z" type="device" version="13.0.1">
+ <diagram id="S1Gz87AjEctzsXtTaDJA" name="Page-1">
+  <mxGraphModel arrows="1" connect="1" dx="1173" dy="640" fold="1" grid="1" gridSize="10" guides="1" math="0" page="1" pageHeight="1100" pageScale="1" pageWidth="850" shadow="0" tooltips="1">
+   <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <mxCell edge="1" id="F2" parent="1" source="Box B" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;strokeWidth=30;strokeColor=green;noLabel=1;fontColor=none;" target="Box C" type="Line" value="F2">
+     <mxGeometry as="geometry" relative="1"/>
+    </mxCell>
+    <mxCell edge="1" id="F1" parent="1" source="Box A" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;strokeWidth=30;strokeColor=green;noLabel=1;fontColor=none;" target="Box B" type="Line" value="F1">
+     <mxGeometry as="geometry" relative="1"/>
+    </mxCell>
+    <mxCell id="Box D" parent="1" style="whiteSpace=wrap;html=1;movableLabel=1;aspect=fixed;" type="Unit" value="Box D" vertex="1">
+     <mxGeometry as="geometry" height="80" width="80" x="730" y="420"/>
+    </mxCell>
+    <mxCell id="Box C" parent="1" style="whiteSpace=wrap;html=1;movableLabel=1;aspect=fixed;" type="Unit" value="Box C" vertex="1">
+     <mxGeometry as="geometry" height="80" width="80" x="450" y="420"/>
+    </mxCell>
+    <mxCell id="Box B" parent="1" style="whiteSpace=wrap;html=1;movableLabel=1;aspect=fixed;" type="Unit" value="Box B" vertex="1">
+     <mxGeometry as="geometry" height="80" width="80" x="240" y="420"/>
+    </mxCell>
+    <mxCell id="Box A" parent="1" style="whiteSpace=wrap;html=1;movableLabel=1;aspect=fixed;" type="Unit" value="Box A" vertex="1">
+     <mxGeometry as="geometry" height="80" width="80" x="30" y="420"/>
+    </mxCell>
+    <mxCell edge="1" id="F10" parent="1" source="Box C" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;strokeWidth=2;strokeColor=orange;endArrow=none;noLabel=1;fontColor=none;" target="Box B" type="Line" value="F10">
+     <mxGeometry as="geometry" relative="1"/>
+    </mxCell>
+    <mxCell edge="1" id="F7" parent="1" source="Box C" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;strokeWidth=2;strokeColor=grey;endArrow=none;noLabel=1;fontColor=none;" target="Box D" type="Line" value="F7">
+     <mxGeometry as="geometry" relative="1"/>
+    </mxCell>
+    <mxCell edge="1" id="F4" parent="1" source="Box C" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;strokeWidth=10;strokeColor=red;endArrow=none;noLabel=1;fontColor=none;" target="Box D" type="Line" value="F4">
+     <mxGeometry as="geometry" relative="1"/>
+    </mxCell>
+    <mxCell edge="1" id="F9" parent="1" source="Box C" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;strokeWidth=5;strokeColor=blue;endArrow=none;noLabel=1;fontColor=none;" target="Box B" type="Line" value="F9">
+     <mxGeometry as="geometry" relative="1"/>
+    </mxCell>
+    <mxCell edge="1" id="F5" parent="1" source="Box C" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;strokeWidth=7;strokeColor=blue;endArrow=none;noLabel=1;fontColor=none;" target="Box D" type="Line" value="F5">
+     <mxGeometry as="geometry" relative="1"/>
+    </mxCell>
+    <mxCell edge="1" id="F6" parent="1" source="Box C" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;strokeWidth=5;strokeColor=orange;endArrow=none;noLabel=1;fontColor=none;" target="Box D" type="Line" value="F6">
+     <mxGeometry as="geometry" relative="1"/>
+    </mxCell>
+    <mxCell edge="1" id="F8" parent="1" source="Box C" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;strokeWidth=10;strokeColor=red;noLabel=1;fontColor=none;" target="Box B" type="Line" value="F8">
+     <mxGeometry as="geometry" relative="1"/>
+    </mxCell>
+    <mxCell edge="1" id="F3" parent="1" source="Box C" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;strokeWidth=15;strokeColor=green;noLabel=1;fontColor=none;" target="Box D" type="Line" value="F3">
+     <mxGeometry as="geometry" relative="1"/>
+    </mxCell>
+   </root>
+  </mxGraphModel>
+ </diagram>
+</mxfile>

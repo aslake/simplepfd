@@ -1,0 +1,11 @@
+tag,type,flows_to
+CO2,text,None
+Air,text,None
+Fan,blower,DCC
+DCC,packedcolumn,Absorber
+Absorber,packedcolumn,P2 Air
+Desorber,packedcolumn,Reboiler CO2
+Reboiler,reboiler,HX1 Desorber
+P2,pump,HX1
+HX1,heatexchanger,Desorber Absorber
+

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mxfile agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="mKXhQDl0v0ee2cnh8IhM" host="app.diagrams.net" modified="2020-04-20T12:38:23.660Z" type="device" version="12.9.14">
+ <diagram id="S1Gz87AjEctzsXtTaDJA" name="Page-1">
+  <mxGraphModel arrows="1" connect="1" dx="1408" dy="743" fold="1" grid="1" gridSize="10" guides="1" math="0" page="1" pageHeight="1100" pageScale="1" pageWidth="850" shadow="0" tooltips="1">
+   <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <mxCell edge="1" id="F8" parent="1" source="Reboiler" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=0.714;exitY=0.95;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;exitPerimeter=0;" target="HX1" value="F8">
+     <mxGeometry as="geometry" relative="1">
+      <Array as="points">
+       <mxPoint x="706" y="730"/>
+       <mxPoint x="560" y="730"/>
+       <mxPoint x="560" y="440"/>
+      </Array>
+     </mxGeometry>
+    </mxCell>
+    <mxCell edge="1" id="F7" parent="1" source="Desorber" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;jumpStyle=gap;jumpSize=10;" target="CO2" value="F7">
+     <mxGeometry as="geometry" relative="1"/>
+    </mxCell>
+    <mxCell edge="1" id="F6" parent="1" source="Desorber" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;jumpStyle=gap;jumpSize=10;entryX=0.857;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" target="Reboiler" value="F6">
+     <mxGeometry as="geometry" relative="1">
+      <Array as="points">
+       <mxPoint x="625" y="620"/>
+       <mxPoint x="683" y="620"/>
+      </Array>
+     </mxGeometry>
+    </mxCell>
+    <mxCell edge="1" id="F5" parent="1" source="Absorber" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;jumpStyle=gap;jumpSize=10;" target="Air" value="F5">
+     <mxGeometry as="geometry" relative="1"/>
+    </mxCell>
+    <mxCell edge="1" id="F3" parent="1" source="DCC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;jumpStyle=gap;jumpSize=10;" target="Absorber" value="F3">
+     <mxGeometry as="geometry" relative="1">
+      <Array as="points">
+       <mxPoint x="215" y="260"/>
+       <mxPoint x="310" y="260"/>
+       <mxPoint x="310" y="570"/>
+      </Array>
+     </mxGeometry>
+    </mxCell>
+    <mxCell edge="1" id="F2" parent="1" source="Fan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=0.018;exitY=0.136;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;exitPerimeter=0;" target="DCC" value="F2">
+     <mxGeometry as="geometry" relative="1">
+      <Array as="points">
+       <mxPoint x="200" y="649"/>
+       <mxPoint x="235" y="650"/>
+      </Array>
+     </mxGeometry>
+    </mxCell>
+    <mxCell id="P2" parent="1" style="shape=mxgraph.pid.pumps.gas_blower;html=1;movableLabel=1;pointerEvents=1;align=center;verticalLabelPosition=bottom;verticalAlign=top;dashed=0;flipH=1;" value="P2" vertex="1">
+     <mxGeometry as="geometry" height="47" width="50" x="425" y="660"/>
+    </mxCell>
+    <mxCell id="Reboiler" parent="1" style="shape=mxgraph.pid.heat_exchangers.reboiler;html=1;pointerEvents=1;align=center;verticalLabelPosition=bottom;verticalAlign=top;dashed=0;flipH=1;" value="Reboiler" vertex="1">
+     <mxGeometry as="geometry" height="60" width="161" x="660" y="647"/>
+    </mxCell>
+    <mxCell id="Desorber" parent="1" style="verticalLabelPosition=top;outlineConnect=0;align=right;dashed=0;html=1;movableLabel=1;verticalAlign=bottom;shape=mxgraph.pid2misc.column;columnType=fixed;labelPosition=left;" value="Desorber" vertex="1">
+     <mxGeometry as="geometry" height="300" width="50" x="600" y="300"/>
+    </mxCell>
+    <mxCell id="Absorber" parent="1" style="verticalLabelPosition=top;outlineConnect=0;align=right;dashed=0;html=1;movableLabel=1;verticalAlign=bottom;shape=mxgraph.pid2misc.column;columnType=fixed;labelPosition=left;" value="Absorber" vertex="1">
+     <mxGeometry as="geometry" height="300" width="50" x="370" y="300"/>
+    </mxCell>
+    <mxCell id="DCC" parent="1" style="verticalLabelPosition=top;outlineConnect=0;align=right;dashed=0;html=1;movableLabel=1;verticalAlign=bottom;shape=mxgraph.pid2misc.column;columnType=fixed;labelPosition=left;" value="DCC" vertex="1">
+     <mxGeometry as="geometry" height="300" width="50" x="210" y="300"/>
+    </mxCell>
+    <mxCell id="Fan" parent="1" style="shape=mxgraph.pid.pumps.gas_blower;html=1;movableLabel=1;pointerEvents=1;align=center;verticalLabelPosition=bottom;verticalAlign=top;dashed=0;flipH=1;" value="Fan" vertex="1">
+     <mxGeometry as="geometry" height="67" width="72" x="90" y="640"/>
+    </mxCell>
+    <mxCell id="Air" parent="1" style="whiteSpace=wrap;html=1;movableLabel=1;aspect=fixed;strokeColor=none;fillColor=none;" value="Air" vertex="1">
+     <mxGeometry as="geometry" height="80" width="80" x="355" y="120"/>
+    </mxCell>
+    <mxCell id="CO2" parent="1" style="whiteSpace=wrap;html=1;movableLabel=1;aspect=fixed;strokeColor=none;fillColor=none;" value="CO2" vertex="1">
+     <mxGeometry as="geometry" height="80" width="80" x="585" y="120"/>
+    </mxCell>
+    <mxCell id="HX1" parent="1" style="shape=mxgraph.pid.heat_exchangers.shell_and_tube_heat_exchanger_1;html=1;movableLabel=1;pointerEvents=1;align=right;verticalLabelPosition=top;verticalAlign=bottom;dashed=0;labelPosition=left;" value="HX1" vertex="1">
+     <mxGeometry as="geometry" height="40" width="40" x="490" y="420"/>
+    </mxCell>
+    <mxCell edge="1" id="F4" parent="1" source="Absorber" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;jumpStyle=gap;jumpSize=10;" target="P2" value="F4">
+     <mxGeometry as="geometry" relative="1">
+      <Array as="points">
+       <mxPoint x="395" y="684"/>
+      </Array>
+     </mxGeometry>
+    </mxCell>
+   </root>
+  </mxGraphModel>
+ </diagram>
+</mxfile>

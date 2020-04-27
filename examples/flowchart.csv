@@ -1,0 +1,15 @@
+tag,type,flows_to
+Fuel,text,Engine
+Capture,box,Compression;Waste
+Pretreatment,box,Capture;Waste
+WHRU,box,Pretreatment;Energy
+Afterburn,box,WHRU
+Engine,box,Exhaust;Energy
+Exhaust,text,WHRU;Afterburn
+Compression,box,Liquifaction
+Liquifaction,box,Storage
+Storage,box,None
+Boil-off,text,Liquifaction
+Waste,text,None
+Chemicals,text,Pretreatment;Capture
+Energy,text,Capture;Pretreatment;Compression;Liquifaction

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mxfile agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="BDVLBNrHc--FGfSUJIvQ" host="app.diagrams.net" modified="2020-04-21T10:36:41.970Z" type="device" version="12.9.14">
+ <diagram id="S1Gz87AjEctzsXtTaDJA" name="Page-1">
+  <mxGraphModel arrows="1" connect="1" dx="1656" dy="874" fold="1" grid="1" gridSize="10" guides="1" math="0" page="1" pageHeight="1100" pageScale="1" pageWidth="850" shadow="0" tooltips="1">
+   <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <mxCell id="Energy" parent="1" style="whiteSpace=wrap;html=1;movableLabel=1;aspect=fixed;strokeColor=none;fillColor=none;" value="Energy" vertex="1">
+     <mxGeometry as="geometry" height="80" width="80" x="30" y="345"/>
+    </mxCell>
+    <mxCell id="Chemicals" parent="1" style="whiteSpace=wrap;html=1;movableLabel=1;aspect=fixed;strokeColor=none;fillColor=none;" value="Chemicals" vertex="1">
+     <mxGeometry as="geometry" height="80" width="80" x="50" y="50"/>
+    </mxCell>
+    <mxCell id="Waste" parent="1" style="whiteSpace=wrap;html=1;movableLabel=1;aspect=fixed;strokeColor=none;fillColor=none;" value="Waste" vertex="1">
+     <mxGeometry as="geometry" height="80" width="80" x="40" y="90"/>
+    </mxCell>
+    <mxCell id="Boil-off" parent="1" style="whiteSpace=wrap;html=1;movableLabel=1;aspect=fixed;strokeColor=none;fillColor=none;" value="Boil-off" vertex="1">
+     <mxGeometry as="geometry" height="80" width="80" x="40" y="20"/>
+    </mxCell>
+    <mxCell id="Storage" parent="1" style="whiteSpace=wrap;html=1;movableLabel=1;aspect=fixed;" value="Storage" vertex="1">
+     <mxGeometry as="geometry" height="80" width="80" x="898" y="215"/>
+    </mxCell>
+    <mxCell id="Liquifaction" parent="1" style="whiteSpace=wrap;html=1;movableLabel=1;aspect=fixed;" value="Liquifaction" vertex="1">
+     <mxGeometry as="geometry" height="80" width="80" x="780" y="215"/>
+    </mxCell>
+    <mxCell id="Compression" parent="1" style="whiteSpace=wrap;html=1;movableLabel=1;aspect=fixed;" value="Compression" vertex="1">
+     <mxGeometry as="geometry" height="80" width="80" x="665" y="215"/>
+    </mxCell>
+    <mxCell id="Capture" parent="1" style="whiteSpace=wrap;html=1;movableLabel=1;aspect=fixed;" value="Capture" vertex="1">
+     <mxGeometry as="geometry" height="80" width="80" x="550" y="215"/>
+    </mxCell>
+    <mxCell id="Pretreatment" parent="1" style="whiteSpace=wrap;html=1;movableLabel=1;aspect=fixed;" value="Pretreatment" vertex="1">
+     <mxGeometry as="geometry" height="80" width="80" x="425" y="215"/>
+    </mxCell>
+    <mxCell id="WHRU" parent="1" style="whiteSpace=wrap;html=1;movableLabel=1;aspect=fixed;" value="WHRU" vertex="1">
+     <mxGeometry as="geometry" height="80" width="80" x="280" y="275"/>
+    </mxCell>
+    <mxCell id="Afterburn" parent="1" style="whiteSpace=wrap;html=1;movableLabel=1;aspect=fixed;" value="Afterburn" vertex="1">
+     <mxGeometry as="geometry" height="80" width="80" x="280" y="155"/>
+    </mxCell>
+    <mxCell id="Exhaust" parent="1" style="whiteSpace=wrap;html=1;movableLabel=1;aspect=fixed;strokeColor=none;fillColor=none;" value="Exhaust" vertex="1">
+     <mxGeometry as="geometry" height="60" width="60" x="180" y="225"/>
+    </mxCell>
+    <mxCell id="Engine" parent="1" style="whiteSpace=wrap;html=1;movableLabel=1;aspect=fixed;" value="Engine" vertex="1">
+     <mxGeometry as="geometry" height="80" width="80" x="60" y="215"/>
+    </mxCell>
+    <mxCell edge="1" id="F5" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;jumpStyle=gap;jumpSize=10;noLabel=1;fontColor=none;dashed=1;" value="F5">
+     <mxGeometry as="geometry" relative="1">
+      <mxPoint as="sourcePoint" x="320" y="355"/>
+      <mxPoint as="targetPoint" x="320" y="390"/>
+      <Array as="points">
+       <mxPoint x="320" y="355"/>
+       <mxPoint x="320" y="373"/>
+       <mxPoint x="310" y="373"/>
+      </Array>
+     </mxGeometry>
+    </mxCell>
+    <mxCell id="Fuel" parent="1" style="whiteSpace=wrap;html=1;movableLabel=1;aspect=fixed;strokeColor=none;fillColor=none;" value="Fuel" vertex="1">
+     <mxGeometry as="geometry" height="80" width="80" x="30" y="135"/>
+    </mxCell>
+    <mxCell edge="1" id="F13" parent="1" source="Liquifaction" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;noLabel=1;fontColor=none;" target="Storage" value="F13">
+     <mxGeometry as="geometry" relative="1"/>
+    </mxCell>
+    <mxCell edge="1" id="F12" parent="1" source="Compression" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;noLabel=1;fontColor=none;" target="Liquifaction" value="F12">
+     <mxGeometry as="geometry" relative="1"/>
+    </mxCell>
+    <mxCell edge="1" id="F0" parent="1" source="Fuel" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;entryX=0.75;entryY=0;entryDx=0;entryDy=0;noLabel=1;fontColor=none;" target="Engine" value="F0">
+     <mxGeometry as="geometry" relative="1">
+      <Array as="points">
+       <mxPoint x="120" y="175"/>
+      </Array>
+     </mxGeometry>
+    </mxCell>
+    <mxCell edge="1" id="F1" parent="1" source="Capture" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;noLabel=1;fontColor=none;" target="Compression" value="F1">
+     <mxGeometry as="geometry" relative="1"/>
+    </mxCell>
+    <mxCell edge="1" id="F3" parent="1" source="Pretreatment" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;noLabel=1;fontColor=none;" target="Capture" value="F3">
+     <mxGeometry as="geometry" relative="1"/>
+    </mxCell>
+    <mxCell edge="1" id="F2" parent="1" source="Capture" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;entryX=1;entryY=0.5;entryDx=0;entryDy=0;noLabel=1;fontColor=none;" target="Waste" value="F2">
+     <mxGeometry as="geometry" relative="1" x="-0.8318">
+      <mxPoint as="offset"/>
+     </mxGeometry>
+    </mxCell>
+    <mxCell edge="1" id="F4" parent="1" source="Pretreatment" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;entryX=1;entryY=0.5;entryDx=0;entryDy=0;noLabel=1;fontColor=none;" target="Waste" value="F4">
+     <mxGeometry as="geometry" relative="1" x="-0.7805">
+      <mxPoint as="offset"/>
+     </mxGeometry>
+    </mxCell>
+    <mxCell edge="1" id="F8" parent="1" source="Engine" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;noLabel=1;fontColor=none;" target="Exhaust" value="F8">
+     <mxGeometry as="geometry" relative="1"/>
+    </mxCell>
+    <mxCell edge="1" id="F6" parent="1" source="WHRU" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;noLabel=1;fontColor=none;" value="F6">
+     <mxGeometry as="geometry" relative="1">
+      <mxPoint as="targetPoint" x="420" y="260"/>
+      <Array as="points">
+       <mxPoint x="400" y="315"/>
+       <mxPoint x="400" y="260"/>
+      </Array>
+     </mxGeometry>
+    </mxCell>
+    <mxCell edge="1" id="F7" parent="1" source="Afterburn" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;noLabel=1;fontColor=none;" target="WHRU" value="F7">
+     <mxGeometry as="geometry" relative="1" x="-0.4369">
+      <mxPoint as="offset"/>
+     </mxGeometry>
+    </mxCell>
+    <mxCell edge="1" id="F9" parent="1" source="Engine" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;strokeWidth=1;strokeColor=black;noLabel=0;" target="Energy" type="Line" value="F9">
+     <mxGeometry as="geometry" relative="1"/>
+    </mxCell>
+    <mxCell edge="1" id="F11" parent="1" source="Exhaust" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;strokeWidth=1;strokeColor=black;noLabel=0;" target="Afterburn" type="Line" value="F11">
+     <mxGeometry as="geometry" relative="1"/>
+    </mxCell>
+    <mxCell edge="1" id="F15" parent="1" source="Boil-off" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;strokeWidth=1;strokeColor=black;noLabel=0;" target="Liquifaction" type="Line" value="F15">
+     <mxGeometry as="geometry" relative="1"/>
+    </mxCell>
+    <mxCell edge="1" id="F17" parent="1" source="Chemicals" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;strokeWidth=1;strokeColor=black;noLabel=0;" target="Pretreatment" type="Line" value="F17">
+     <mxGeometry as="geometry" relative="1"/>
+    </mxCell>
+    <mxCell edge="1" id="F18" parent="1" source="Chemicals" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;strokeWidth=1;strokeColor=black;noLabel=0;" target="Capture" type="Line" value="F18">
+     <mxGeometry as="geometry" relative="1"/>
+    </mxCell>
+    <mxCell edge="1" id="F19" parent="1" source="Energy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;strokeWidth=1;strokeColor=black;noLabel=0;" target="Capture" type="Line" value="F19">
+     <mxGeometry as="geometry" relative="1"/>
+    </mxCell>
+    <mxCell edge="1" id="F20" parent="1" source="Energy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;strokeWidth=1;strokeColor=black;noLabel=0;" target="Pretreatment" type="Line" value="F20">
+     <mxGeometry as="geometry" relative="1"/>
+    </mxCell>
+    <mxCell edge="1" id="F21" parent="1" source="Energy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;strokeWidth=1;strokeColor=black;noLabel=0;" target="Compression" type="Line" value="F21">
+     <mxGeometry as="geometry" relative="1"/>
+    </mxCell>
+    <mxCell edge="1" id="F22" parent="1" source="Energy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;strokeWidth=1;strokeColor=black;noLabel=0;" target="Liquifaction" type="Line" value="F22">
+     <mxGeometry as="geometry" relative="1"/>
+    </mxCell>
+    <mxCell edge="1" id="F10" parent="1" source="Exhaust" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movableLabel=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;jumpSize=10;strokeWidth=1;strokeColor=black;noLabel=0;" target="WHRU" type="Line" value="F10">
+     <mxGeometry as="geometry" relative="1"/>
+    </mxCell>
+   </root>
+  </mxGraphModel>
+ </diagram>
+</mxfile>
